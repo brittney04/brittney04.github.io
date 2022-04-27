@@ -2,7 +2,7 @@ body{
   font-family: 'Arial', sans serif;
   background-color: pink;
   color: purple
-  text-align: right;
+  text-align: left;
   padding-top: 200px;
 }
 /* example comment syntax */
@@ -14,6 +14,8 @@ body{
   background-color: red;
   color: white;
 }
+/* class exercise 4/27 */
+
 
 *{
     margin: 0;
@@ -156,8 +158,6 @@ padding: 0px 10px;
   font-size: 30px;
   text-align: center;
 }
-
-
 
 .footer{
   float: left;
