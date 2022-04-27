@@ -1,3 +1,20 @@
+body{
+  font-family: 'Arial', sans serif;
+  background-color: pink;
+  color: purple
+  text-align: right;
+  padding-top: 200px;
+}
+/* example comment syntax */
+.div{
+  borders: 1px solid #ccc;
+}
+
+#navigation{
+  background-color: red;
+  color: white;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +58,7 @@ header{
   float: left;
   width: 100%;
   background-color: #dddddd;
-  border: 2px solid red;
+  /* border: 2px solid orange; */
   text-align: center;
   padding: 50px 10px;
   margin-bottom: 20px;
@@ -71,7 +88,7 @@ padding: 0px 10px;
   float: left;
   width: 100%;
   background-color: #dddddd;
-  border: 2px solid red;
+  /* border: 2px solid orange; */
   text-align: center;
   padding: 50px 10px;
   margin-bottom: 20px;
@@ -93,6 +110,7 @@ padding: 0px 10px;
   font-size: 30px;
   color: #fff;
   background-color: gray;
+  margin-bottom: 20px;
 }
 .section2 .content .right{
   width: 50%;
@@ -115,7 +133,7 @@ padding: 0px 10px;
   float: left;
   width: 100%;
   background-color: #dddddd;
-  border: 2px solid red;
+  /* border: 2px solid orange; */
   text-align: center;
   padding: 50px 10px;
   margin-bottom: 20px;
