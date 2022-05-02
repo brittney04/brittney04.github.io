@@ -1,1 +1,63 @@
+body{
+  background-color: #F3FEFE;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 100px;
+
+  text-decoration: none;
+}
+
+
+/* Nav bar end*/
+h1 {
+  font-size: 70pt;
+  font-family: 'Gotu', sans-serif;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 55pt;
+  font-family: 'Gotu', sans-serif;
+}
+
+
+/* company info */
+.container p{
+  font-size: 25pt;
+  font-family: 'M PLUS 1p', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+
+/* company info end */
+
+.footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     font-family: 'M PLUS 1p', sans-serif;
+     padding: 10px 20px;
+     background: #07BEB8;
+     color: white;
+     padding: 40px;
+     word-spacing: 55px;
+     text-align: center;
+   }
