@@ -18,7 +18,8 @@ li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 20px 100px;
+  font-family: 'M PLUS 1p', sans-serif;
+  padding: 20px 90px;
 
   text-decoration: none;
 }
@@ -31,11 +32,33 @@ h1 {
   text-align: center;
 }
 
+.btn-outline-shopnow{
+  background-color: #FFF789;
+  border: 1px solid black;
+  width: 180px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.btn-outline-learnmore{
+  background-color: #FFF789;
+  border: 1px solid black;
+  
+  font-family: 'M PLUS 1p', sans-serif;
+}
 
 h2 {
-  font-size: 55pt;
+  font-size: 45pt;
   font-family: 'Gotu', sans-serif;
   text-align: center;
+  padding: 20px;
+}
+
+/* 4 grid images */
+.col-md-6{ padding: 20px;
+  text-align: center;
+
 }
 
 
@@ -44,7 +67,9 @@ h2 {
   font-size: 25pt;
   font-family: 'M PLUS 1p', sans-serif;
   text-align: center;
-  padding: 30px;
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 
