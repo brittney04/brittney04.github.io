@@ -76,11 +76,16 @@ h2 {
   border: 1px solid black;
 }
 
+.btn btn-primary{
+  float: right;
+}
+
 /* 4 grid images */
 .col-md-6{ padding: 20px;
   text-align: center;
 
 }
+
 
 
 /* company info */
