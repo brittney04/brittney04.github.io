@@ -44,7 +44,7 @@ h1 {
 .btn-outline-learnmore{
   background-color: #FFF789;
   border: 1px solid black;
-  
+
   font-family: 'M PLUS 1p', sans-serif;
 }
 
@@ -53,6 +53,27 @@ h2 {
   font-family: 'Gotu', sans-serif;
   text-align: center;
   padding: 20px;
+}
+
+/* carousel */
+.cards-wrapper{
+  display: flex;
+}
+.card{
+  /* margin: 25px; */
+  margin: 0 auto;
+  width: calc(100%/3.2);
+  background-color: #E8DEFE;
+  border: 1px solid black;
+}
+
+.card-title{
+  font-size: 20pt;
+  font-family: 'Gotu', sans-serif;
+}
+
+.card-body{
+  border: 1px solid black;
 }
 
 /* 4 grid images */
