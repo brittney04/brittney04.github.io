@@ -24,9 +24,8 @@ li a {
   text-decoration: none;
 }
 
-
 /* Nav bar end*/
-h1 {
+ h1 {
   font-size: 70pt;
   font-family: 'Gotu', sans-serif;
   text-align: center;
@@ -35,7 +34,7 @@ h1 {
 .btn-outline-shopnow{
   background-color: #FFF789;
   border: 1px solid black;
-  width: 180px;
+  width: 150px;
   font-size: 20px;
   margin-top: 10px;
   font-family: 'M PLUS 1p', sans-serif;
@@ -45,24 +44,29 @@ h1 {
   background-color: #FFF789;
   border: 1px solid black;
 
+  width: 150px;
+  font-size: 20px;
+  margin-top: 10px;
   font-family: 'M PLUS 1p', sans-serif;
 }
+
+
 
 h2 {
   font-size: 45pt;
   font-family: 'Gotu', sans-serif;
   text-align: center;
-  padding: 20px;
+  margin-top:40px;
 }
 
 /* carousel */
 .cards-wrapper{
   display: flex;
+  margin: 40px;
 }
 .card{
-  /* margin: 25px; */
   margin: 0 auto;
-  width: calc(100%/3.2);
+  width: calc(100%/3.8);
   background-color: #E8DEFE;
   border: 1px solid black;
 }
@@ -87,9 +91,8 @@ h2 {
 }
 
 
-
 /* company info */
-.container p{
+ .container p{
   font-size: 25pt;
   font-family: 'M PLUS 1p', sans-serif;
   text-align: center;
