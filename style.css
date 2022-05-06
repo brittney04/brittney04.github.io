@@ -59,6 +59,21 @@ h2 {
   margin-top:40px;
 }
 
+ h3 {
+  font-size: 45pt;
+  font-family: 'Gotu', sans-serif;
+  text-align: center;
+  padding-top:30px;
+}
+
+h4 {
+  font-size: 25pt;
+  font-family: 'M PLUS 1p', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* carousel */
 .cards-wrapper{
   display: flex;
@@ -80,10 +95,6 @@ h2 {
   border: 1px solid black;
 }
 
-.btn btn-primary{
-  float: right;
-}
-
 /* 4 grid images */
 .col-md-6{ padding: 20px;
   text-align: center;
@@ -96,7 +107,7 @@ h2 {
   font-size: 25pt;
   font-family: 'M PLUS 1p', sans-serif;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 70px;
   margin-right: 70px;
 }
