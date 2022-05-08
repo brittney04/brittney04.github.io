@@ -4,9 +4,9 @@ body{
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    padding: 0 420px;
+
+  /* overflow: hidden; */
   background-color: white;
 }
 
@@ -19,12 +19,63 @@ li a {
   color: black;
   text-align: center;
   font-family: 'M PLUS 1p', sans-serif;
-  padding: 20px 90px;
+  padding: 30px;
 
   text-decoration: none;
 }
 
+.logo{
+  width:110px;
+  height:55px;
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+
+}
+
 /* Nav bar end*/
+
+/* images */
+.header{
+  padding:0px;
+  text-align: center;
+  width:715px;
+  height:715px;}
+
+.brandinfo {
+  width:600px;
+  height:880px;
+}
+
+.collage1{
+  width:550px;
+  height:550px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.collage2{
+  width:550px;
+  height:550px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.collage3{
+  width:550px;
+  height:550px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.collage4{
+  width:550px;
+  height:550px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* images end */
  h1 {
   font-size: 70pt;
   font-family: 'Gotu', sans-serif;
@@ -63,7 +114,7 @@ h2 {
   font-size: 45pt;
   font-family: 'Gotu', sans-serif;
   text-align: center;
-  padding-top:30px;
+  padding-top:50px;
 }
 
 h4 {
@@ -95,10 +146,21 @@ h4 {
   border: 1px solid black;
 }
 
-/* 4 grid images */
-.col-md-6{ padding: 20px;
-  text-align: center;
 
+
+.btn-primary{
+  float: right;
+  color: black;
+  padding: 12px;
+  background-color:#FFF789;
+  border: 1px solid black;
+}
+
+/* Header and 4 grid images */
+ .col-md-6{ padding: 0px;
+  text-align: center;
+  display:block;
+  overflow: hidden;
 }
 
 .col-md-5{
@@ -107,11 +169,11 @@ h4 {
 }
 
 /* company info */
- .container p{
-  font-size: 25pt;
+ h6{
+  font-size: 30pt;
   font-family: 'M PLUS 1p', sans-serif;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 180px;
   margin-left: 70px;
   margin-right: 70px;
   margin-bottom: 50px;
@@ -125,10 +187,15 @@ h4 {
      bottom: 0;
      width: 100%;
      font-family: 'M PLUS 1p', sans-serif;
-     padding: 10px 20px;
+     font-size: 15px;
      background: #07BEB8;
      color: white;
      padding: 40px;
      word-spacing: 55px;
      text-align: center;
    }
+
+.whitelogo{
+  width:110px;
+  height:55px;
+}
