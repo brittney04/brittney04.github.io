@@ -20,7 +20,7 @@ li a {
   text-align: center;
   font-family: 'M PLUS 1p', sans-serif;
   padding: 30px;
-
+  
   text-decoration: none;
 }
 
@@ -49,31 +49,34 @@ li a {
 }
 
 .collage1{
+  float: right;
   width:550px;
   height:550px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 30px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
 }
 
 .collage2{
+  float: left;
   width:550px;
   height:550px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 30px;
 }
 
 .collage3{
+  float: right;
   width:550px;
   height:550px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 30px;
 }
 
 .collage4{
+  float: left;
   width:550px;
   height:550px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 30px;
+   margin-bottom: 70px;
 }
 /* images end */
  h1 {
@@ -129,7 +132,10 @@ h4 {
 .cards-wrapper{
   display: flex;
   margin: 40px;
+  padding-bottom: 40px;
 }
+
+
 .card{
   margin: 0 auto;
   width: calc(100%/3.8);
@@ -138,6 +144,13 @@ h4 {
 }
 
 .card-title{
+ padding-top: 20px;
+  font-size: 20pt;
+  font-family: 'Gotu', sans-serif;
+}
+
+.card-text{
+  padding-top: 10px;
   font-size: 20pt;
   font-family: 'Gotu', sans-serif;
 }
@@ -147,12 +160,17 @@ h4 {
 }
 
 
-
 .btn-primary{
   float: right;
   color: black;
-  padding: 12px;
+  padding-right: 12px;
   background-color:#FFF789;
+  border: 1px solid black;
+  position:relative;
+  top:-60px;
+}
+
+.card-img-top{
   border: 1px solid black;
 }
 
@@ -198,4 +216,7 @@ h4 {
 .whitelogo{
   width:110px;
   height:55px;
+  position: relative;
+  left: -600px;
+  bottom:-30px;
 }
