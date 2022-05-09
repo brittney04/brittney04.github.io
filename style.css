@@ -28,11 +28,12 @@ li a {
   width:110px;
   height:55px;
   display: block;
-  margin-left: auto;
   margin-top: 20px;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto; 
 
 }
+
 
 
 
@@ -42,8 +43,8 @@ li a {
 .header{
   padding:0px;
   text-align: center;
-  width:715px;
-  height:715px;}
+  width:720px;
+  height:720px;}
 
 .brandinfo {
   width:600px;
@@ -119,7 +120,7 @@ h2 {
   font-size: 35pt;
   font-family: 'M PLUS 1p', sans-serif;
   text-align: left;
-  margin-left: 350px;
+  margin-left: 390px;
   padding-top:30px;
   display: inline-block;
 }
@@ -161,7 +162,7 @@ h4 {
 
 .card-body{
   border: 1px solid black;
-
+height: 140px;
 }
 
 
@@ -310,14 +311,13 @@ a {
 
 }
 
-a:hover { 
-  background-color: #ddd;
+a:hover {
   color: black;
 }
 
 .previous {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #07BEB8;
+  color: white;
   margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
