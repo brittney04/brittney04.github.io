@@ -20,7 +20,7 @@ li a {
   text-align: center;
   font-family: 'M PLUS 1p', sans-serif;
   padding: 30px;
-  
+
   text-decoration: none;
 }
 
@@ -110,13 +110,13 @@ h2 {
   font-size: 45pt;
   font-family: 'Gotu', sans-serif;
   text-align: center;
-  margin-top:40px;
+  padding-top:40px;
 }
 
  h3 {
-  font-size: 45pt;
-  font-family: 'Gotu', sans-serif;
-  text-align: center;
+  font-size: 35pt;
+  font-family: 'M PLUS 1p', sans-serif;
+  text-align: left;
   padding-top:50px;
 }
 
@@ -196,10 +196,62 @@ h4 {
   margin-right: 70px;
   margin-bottom: 50px;
 }
-
-
 /* company info end */
 
+/* Makeup Cards */
+.cards-wrapper{
+  display: flex;
+  margin: 40px;
+  padding-bottom: 40px;
+}
+
+
+.cards{
+  margin: 0 auto;
+  width: ;
+  /* margin-top: 20px; */
+  background-color: #E8DEFE;
+  border: 1px solid black;
+
+}
+
+.cards-title{
+ padding-top: 20px;
+ padding-left: 10px;
+  font-size: 20pt;
+  font-family: 'Gotu', sans-serif;
+}
+
+.cards-text{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20pt;
+  font-family: 'Gotu', sans-serif;
+}
+
+.cards-body{
+  border: 1px solid black;
+}
+
+
+.btn-primary2{
+  float: right;
+  color: black;
+  margin-right: 10px;
+  /* padding-right:12px; */
+  background-color:#FFF789;
+  border: 1px solid black;
+  position:relative;
+  top:-60px;
+}
+
+.card-img-top{
+  border: 1px solid black;
+}
+
+
+
+/* footer start */
 .footer {
      left: 0;
      bottom: 0;
