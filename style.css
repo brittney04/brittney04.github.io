@@ -19,7 +19,9 @@ li a {
   color: black;
   text-align: center;
   font-family: 'M PLUS 1p', sans-serif;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 
   text-decoration: none;
 }
@@ -29,11 +31,10 @@ li a {
   height:55px;
   display: block;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto; 
+  margin-left: 620px;
+
 
 }
-
 
 
 
@@ -204,8 +205,39 @@ height: 140px;
 }
 /* company info end */
 
+/* makeup filter */
+#myHeader{
+  font-size: 25pt;
+  text-align: left;
+  font-family: 'M PLUS 1p', sans-serif;
+}
 
-/* dropdown  */
+.accordion-body {
+   /* background-color: #F3FEFE; */
+}
+
+
+
+#headingOne {
+   font-family: 'M PLUS 1p', sans-serif;
+}
+
+#headingTwo {
+   font-family: 'M PLUS 1p', sans-serif;
+}
+
+#headingThree {
+   font-family: 'M PLUS 1p', sans-serif;
+}
+
+#lips1
+#lips2
+#lips3
+#lips4{
+  font-size: 15pt;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+/* makeup dropdown  */
 .dropbtn {
   background-color: white;
   color: black;
@@ -236,7 +268,6 @@ height: 140px;
 
 .dropdown-content a {
   color: black;
-
   font-family: 'M PLUS 1p', sans-serif;
   padding: 12px 16px;
   text-decoration: none;

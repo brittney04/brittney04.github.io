@@ -20,7 +20,7 @@
 <script src="https://kit.fontawesome.com/756c4050e4.js" crossorigin="anonymous"></script>
     <!-- links to style sheets, google fonts, etc. go here -->
     <style>
-                 body div { border: 1px solid red; }
+                 /* body div { border: 1px solid red; }  */
     </style>
 
 
@@ -35,6 +35,8 @@
   <a href="https://brittney04.github.io/">
                    <img class="logo" src="images/logo.png" alt="Logo">
   </a>
+
+
 
             <ul>
               <li><a href="makeup.html">Makeup</a></li>
@@ -67,11 +69,105 @@
 </div>
 
 <!-- filter and products -->
-           <div class="row">
+           
             <div class="col-md-3">
+<h1 id="myHeader">Categories</h1>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h5 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Face
+      </button>
+    </h5>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <form action="/action_page.php">
+          <input type="checkbox" id="face1" name="face1" value="Concealer">
+          <label for="face1"> Concealer</label><br>
+
+          <input type="checkbox" id="face2" name="face2" value="Blush">
+          <label for="face2"> Blush</label><br>
+
+          <input type="checkbox" id="face3" name="face3" value="Bronzer">
+          <label for="face3"> Bronzer</label><br>
+
+           <input type="checkbox" id="face4" name="face4" value="Highlighter">
+          <label for="face4"> Highlighter</label><br>
+
+           <input type="checkbox" id="face5" name="face5" value="Powder">
+          <label for="face5"> Powder</label><br>
+
+           <input type="checkbox" id="face6" name="face6" value="Face Mist">
+          <label for="face6"> Face Mist</label><br>
+
+        </form>
 
       </div>
+    </div>
+  </div>
 
+
+  <div class="accordion-item">
+    <h5 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Eyes
+      </button>
+    </h5>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <form action="/action_page.php">
+          <input type="checkbox" id="eyes1" name="eyes1" value="Eyeshadow">
+          <label for="eyes1"> Eyeshadow</label><br>
+
+          <input type="checkbox" id="eyes2" name="eyes2" value="Eyeliner">
+          <label for="eyes2"> Eyeliner</label><br>
+
+          <input type="checkbox" id="eyes3" name="eyes3" value="Mascara">
+          <label for="eyes3"> Mascara</label><br>
+
+           <input type="checkbox" id="eyes4" name="eyes4" value="Pigment">
+          <label for="eyes4"> Pigment</label><br>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h5 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Lips
+      </button>
+    </h5>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <form action="/action_page.php">
+          <input type="checkbox" id="lips1" name="lips1" value="Lip Gloss">
+          <label for="lips1"> Lip Gloss</label><br>
+
+          <input type="checkbox" id="lips2" name="lips2" value="Lipstick">
+          <label for="lips2"> Lipstick</label><br>
+
+          <input type="checkbox" id="lips3" name="lips3" value="Lip Mousse">
+          <label for="lips3"> Lip Mousse</label><br>
+
+           <input type="checkbox" id="lips4" name="lips4" value="Lip Balm/Scrub">
+          <label for="lips4"> Lip Balm/Scrub</label><br>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+              </div>
+
+<!-- filter end -->
               <div class="col-md-3">
                 <div class="cards">
                   <img src="images/product1.jpg" class="card-img-top" alt="Highlighter" >
@@ -179,7 +275,10 @@
 </div>
 </div>
 
-</div>
+
+
+
+
 <!-- footer starts -->
 
 <div class="footer">
